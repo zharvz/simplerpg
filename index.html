@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple RPG</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+    <!-- Include your CSS stylesheets here -->
+</head>
+<body>
+    <header>
+        <h1>Simple RPG</h1>
+    </header>
+    <main>
+        <section id="connectSection">
+            <h2>Connect Wallet</h2>
+            <button id="connectButton">Connect Wallet</button>
+            <p id="connectedWallet">Connected Wallet: Not Connected</p>
+        </section>
+        <section id="stickFigureSection">
+            <h2>Your Stick Figure</h2>
+            <pre id="stickFigure">
+                O
+               /|\
+               / \
+            </pre>
+        </section>
+        <p id="ownedParts"></p>
+        <section id="buySection">
+            <h2>Buy Green Body Parts</h2>
+            <button id="buyGreenHead">Buy Green Head (0.01 FTM)</button>
+            <button id="buyGreenTorso">Buy Green Torso (0.01 FTM)</button>
+            <button id="buyGreenLegs">Buy Green Legs (0.01 FTM)</button>
+        </section>
+    </main>
+    <footer>
+        <p>© 2023 Simple RPG</p>
+    </footer>
+</body>
+</html>
